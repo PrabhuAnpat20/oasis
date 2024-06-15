@@ -7,7 +7,7 @@ import { BiSolidSend } from "react-icons/bi";
 import { Toaster, toast } from "sonner";
 import api from "@/api/api";
 
-export default function page() {
+export default function CreateCommunityPage() {
   const [BannerImage, setBannerImage] = useState(null);
 
   const [ProfileImage, setProfileImage] = useState(null);
